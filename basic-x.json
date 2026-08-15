@@ -1,0 +1,22 @@
+{
+  "rudy": {
+    "title": "quagmire",
+    "class": "king",
+    "age":23
+  },
+  "roxy": {
+    "title": "migurd",
+    "class": "king",
+    "age" : 76
+  },
+  "sylphy": {
+  "title": "elf",
+  "class": "saint",
+  "age" : 22
+  },
+  "orsterd": {
+    "title" : "dragon",
+    "class": "god",
+    "age" : 1000
+  }
+}
