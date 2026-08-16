@@ -39,7 +39,3 @@ few_char_details = {
         }
 }
 
-adaptor = TypeAdapter(Dict[str,CharacterDetails])
-validated_char_details = adaptor.validate_python(few_char_details)
-
-print(validated_char_details)
