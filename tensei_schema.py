@@ -12,7 +12,7 @@ class CharacterDetails(BaseModel):
     @field_validator('age')
     @classmethod
     def age_field_validator(cls,value):
-        if value<0:
+        if value<=0:
             raise ValueError('invalid age')
         return value
 
@@ -20,6 +20,13 @@ class CharacterDetails(BaseModel):
     @property
     def spouse_count(self)->int:
         return len(self.married)
+
+class CharacterDetailsUpdate(BaseModel):
+    title:Optional[str] = None
+    type:Optional[List[str]] = None
+    class_:Optional[str] = None
+    age:Annotated[Optional[int], Field(default= None, gt=0)] 
+    married:Optional[List[str]] = None
 
 
 few_char_details = {
