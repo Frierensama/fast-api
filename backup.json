@@ -1,37 +1,87 @@
 {
   "rudy": {
     "title": "quagmire",
-    "type":["swordsman","mage"],
+    "type": [
+      "swordsman",
+      "mage"
+    ],
     "class_": "king",
-    "age":23,
-    "married":["sylphy","roxy","eris"]
+    "age": 23,
+    "married": [
+      "sylphy",
+      "roxy",
+      "eris"
+    ]
   },
   "roxy": {
     "title": "migurd",
-    "type":["mage"],
+    "type": [
+      "mage"
+    ],
     "class_": "king",
-    "age" : 76,
-    "married":["rudy"]
+    "age": 76,
+    "married": [
+      "rudy"
+    ]
   },
   "sylphy": {
-  "title": "elf",
-  "type":["mage"],
-  "class_": "saint",
-  "age" : 22,
-  "married":["rudy"]
+    "title": "elf",
+    "type": [
+      "mage"
+    ],
+    "class_": "saint",
+    "age": 22,
+    "married": [
+      "rudy"
+    ]
   },
-  "eris":{
-    "title":"greyrat",
-    "type":["swordsman"],
-    "class_":"king",
-    "age":25,
-    "married":["rudy"]
+  "eris": {
+    "title": "greyrat",
+    "type": [
+      "swordsman"
+    ],
+    "class_": "king",
+    "age": 25,
+    "married": [
+      "rudy"
+    ]
   },
   "orsterd": {
-    "title" : "dragon",
-    "type":["warlord"],
+    "title": "dragon",
+    "type": [
+      "warlord"
+    ],
     "class_": "god",
-    "age" : 1000,
-    "married":["norn"]
+    "age": 1000,
+    "married": [
+      "norn"
+    ]
+  },
+  "aisa": {
+    "title": "imouto",
+    "type": [
+      "maid",
+      "chloe"
+    ],
+    "class_": "beyond god",
+    "age": 18,
+    "married": [
+      "ars"
+    ],
+    "spouse_count": 1
+  },
+  "paul": {
+    "title": "father",
+    "type": [
+      "swordsman",
+      "sacrifice"
+    ],
+    "class_": "king",
+    "age": 38,
+    "married": [
+      "zenith",
+      "lilia"
+    ],
+    "spouse_count": 2
   }
 }
