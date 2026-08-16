@@ -1,22 +1,37 @@
 {
   "rudy": {
     "title": "quagmire",
-    "class": "king",
-    "age":23
+    "type":["swordsman","mage"],
+    "class_": "king",
+    "age":23,
+    "married":["sylphy","roxy","eris"]
   },
   "roxy": {
     "title": "migurd",
-    "class": "king",
-    "age" : 76
+    "type":["mage"],
+    "class_": "king",
+    "age" : 76,
+    "married":["rudy"]
   },
   "sylphy": {
   "title": "elf",
-  "class": "saint",
-  "age" : 22
+  "type":["mage"],
+  "class_": "saint",
+  "age" : 22,
+  "married":["rudy"]
+  },
+  "eris":{
+    "title":"greyrat",
+    "type":["swordsman"],
+    "class_":"king",
+    "age":25,
+    "married":["rudy"]
   },
   "orsterd": {
     "title" : "dragon",
-    "class": "god",
-    "age" : 1000
+    "type":["warlord"],
+    "class_": "god",
+    "age" : 1000,
+    "married":["norn"]
   }
 }
