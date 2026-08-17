@@ -84,7 +84,7 @@ def delete_character(character_name:str):
     stored_data = load_data()
 
     if character_name not in stored_data:
-        raise HTTPException(status_code=400,detail='no character with name')
+        raise HTTPException(status_code=404,detail='no character with name')
 
     del stored_data[character_name]
 
